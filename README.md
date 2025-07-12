@@ -1,69 +1,69 @@
 <!-- Mohammad Al-Qaisy / README.md -->
 
-<!-- Header Badges -->
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+<!-- Tech Expertise Badges -->
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![Pydantic](https://img.shields.io/badge/Pydantic-FFD43B?style=for-the-badge&logo=python&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Cloud Run](https://img.shields.io/badge/Cloud%20Run-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=redis&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-3A873A?style=for-the-badge&logo=redis&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VSCode-0078D7?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![Pub/Sub](https://img.shields.io/badge/GCP%20Pub%2FSub-5C6BC0?style=for-the-badge&logo=google-cloud&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-0A0FFF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 ---
 
-## 👋 Hey, I’m **Mohammad Al-Qaisy** (@alqaisy)
+## 👋 Hi, I’m **Mohammad Al-Qaisy** — Backend Architect | Platform Engineer | System Integrator
 
-![Typing Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=22D3EE&center=true&vCenter=true&width=800&lines=Backend+Engineer+%7C+Async+Worker+Wizard;CSV+Pipeline+Architect+%7C+Rule-Based+Validator+Crafter;Built+for+scale.+Optimized+for+clarity.)
-
----
-
-## 🔧 Currently Crafting
-- ✨ Dynamic **CSV validation** and **column mapping** workflows for WhatsApp campaign ingestion  
-- 🔄 Reliable **scheduling systems** using Django + Celery + Cloud Run  
-- 🧠 A **Pydantic-powered rule engine** for validating phone numbers, dates, and strings  
-- 📤 Distributed message pipelines with GCP Pub/Sub + Dockerized microservices  
+![Typing Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=22D3EE&center=true&vCenter=true&width=1000&lines=Architecting+Clean+Scalable+Systems.;Automating+Workflows+End-to-End.;Data-Ingestion,+Scheduling+%26+Validation+Expert.;High-Performance+Backends+with+Async+Python.;Platform+Thinking.+System+First.+)
 
 ---
 
-## 🧩 Tech Stack in Daily Combat
-- 🐍 Python (async, validators, clean arch)
-- 🌐 FastAPI / Django REST APIs
-- ☁️ GCP: Cloud Run, Secrets, Pub/Sub, Task Queues
-- ⚙️ Celery + Redis for async orchestration
-- 📦 Docker everything, tested with `pytest`
-- 📁 Spreadsheet-to-schema validation for file uploads
-- 📚 Pydantic + custom rule sets
+## 🧠 Areas of Expertise
+- **Distributed Systems**: Cloud-native architectures with Pub/Sub, Cloud Run, and asynchronous microservices  
+- **Backend Engineering**: Robust APIs using Django & FastAPI with strong schema validation and type safety  
+- **Messaging Infrastructure**: Time-based message flows, scheduled execution logic, and async task orchestration  
+- **Rule-Based Engines**: Flexible, composable rule validators for phone numbers, dates, and structured input  
+- **DevOps-Ready**: Containerized pipelines, CI-driven deployment, GitOps conventions
 
 ---
 
-## 📈 Code Knowledge
-- 💡 Rule-based system with `FieldRule`, `PhoneRule`, `StringRule`, `DateRule`
-- 📅 Smart datetime parsing using `dateutil.parser` over `strptime`
-- 🧪 CSV cleaner, validator, and ingest flow with persistent mappings
-- ⏱️ Django-integrated scheduler using Celery workers + lock logic
+## ⚒️ What I Build
+- 🧩 **Rule-Based Validation Systems**  
+  Advanced validation using `FieldRule` classes & `Pydantic` – supports defaults, transformations, and error transparency
+
+- 📅 **Smart Scheduling Engines**  
+  Campaign timers & execution pipelines built with `Celery`, `Django`, and distributed locking strategies
+
+- 📤 **Asynchronous Message Pipelines**  
+  Message ingestion & distribution with Google Cloud Run + Pub/Sub — resilient, observable, and scalable
+
+- 📁 **Data Ingestion Frameworks**  
+  CSV column mappers, spreadsheet schema detection, and ingestion pipelines tied to dynamic campaign flows
 
 ---
 
-## 🚀 Goals & Side Quests
-- ✅ Package the rule system into a reusable PyPI lib  
-- 🔁 Create CLI tooling for managing campaign templates  
-- 🔍 Release an internal dashboard for validation diagnostics  
+## 📚 Deep Dives
+- 🛠 Migrated monolithic scheduling into modular async execution workers
+- 🧠 Designed a **schema-driven CSV validator** used in WhatsApp campaigns: ensures data integrity and campaign consistency
+- 🔁 Built `ScheduleCampaignHelper`: central logic layer for time windows, lock resolution, and message chunking
+- ⏱️ Created dynamic fallback/resume strategies for long-running campaign distributions
 
 ---
 
-## 💬 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammad-alqaisy/)  
-[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alqaisy)
+## 🔍 Currently Focused On
+- 🚀 Automating cloud-native pipeline workflows
+- 📦 Publishing reusable internal PyPI packages for rule-based validation
+- 🛠 Building internal dashboards to track validation quality & scheduling flow outcomes
+- 💬 Architecting scalable campaign communication engines at Qeen.ai
 
 ---
 
-## ⚡ GitHub Stats
+## 📈 GitHub Metrics
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=alqaisy&show_icons=true&theme=tokyonight" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=alqaisy&theme=tokyonight" width="48%" />
@@ -71,7 +71,11 @@
 
 ---
 
-## 🔄 Life Motto
-> _“Ship clean. Validate early. Scale smart.”_
+## 🌍 Let’s Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammad-alqaisy/)  
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alqaisy)
 
 ---
+
+> _"You don't just scale code. You scale **clarity, consistency, and confidence** across systems."_
+
